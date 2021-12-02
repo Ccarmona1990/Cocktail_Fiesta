@@ -1,4 +1,4 @@
-import { get } from "../../Utils/getElement.js";
+import {get} from "./getElement.js";
 import { hideLoading } from "./ToggleLoading.js";
 
 

@@ -1,4 +1,4 @@
-import {get} from '../../Utils/getElement.js';
+import {get} from "./getElement.js";
 import {getAsyncData} from "./getData.js";
 import { showData } from "./showData.js";
 
