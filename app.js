@@ -7,12 +7,12 @@ import setDrink from "./util/setDrink.js";
 import './util/scroll.js';
 
 // Variables
+const sectionCocktails = get('.section');
+const url = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=a';
 
 // Functions
 const showDrinks = async () => {
-    const sectionCocktails = get('.section');
-    const url = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=a';
-    
+
     await getAsyncData(url, showData);
     setDrink(sectionCocktails);
 }
