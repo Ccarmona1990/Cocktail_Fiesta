@@ -1,6 +1,6 @@
 // Imports
 import {getAsyncData} from "./util/getData.js";
-import {get} from "../Utils/getElement.js";
+import {get} from "./Util/getElement.js";
 import { showData } from "./util/showData.js";
 import './util/search.js';
 import setDrink from "./util/setDrink.js";
